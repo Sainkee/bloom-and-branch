@@ -1,0 +1,390 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* ////////////////////////hero-section////////////////////// */
+
+.navbar-brand {
+  padding: 0.5rem 1.5%;
+  font-family: "Gideon Roman";
+  font-size: calc(15px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.nav-link {
+  color: white !important;
+  font-weight:lighter;
+  font-family: "Montserrat";
+  font-size: calc(8px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: pink !important;
+}
+
+.navbar-nav > .nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-collapse {
+  padding: 0.5rem;
+}
+
+.navbar {
+  margin: 0% 10%;
+  width: 80%;
+  top: 10%;
+  border-radius: 50px;
+}
+
+/* ////////////////////////////////hero-text///////////////////////////////////// */
+
+.hero-text {
+  position: relative;
+  margin: 15% 15%;
+  display: block;
+}
+
+#landing-page {
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top left, right top, center;
+  background-size: 250px, 250px, cover;
+  height: 110vh;
+}
+.hero-text h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: calc(45px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-family: "Unna";
+  line-height: 0.8;
+  color: rgb(51, 51, 51);
+}
+
+.hero-text .subtitle {
+  font-size: calc(38px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-family: "sacramento";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  padding: 0 0 1%;
+}
+
+.hero-text p {
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  line-height: 1.4;
+  width: 66%;
+}
+.hero-text button {
+  margin-top: 1rem;
+}
+
+.Purchase-button {
+  background-color: #e08e9c;
+  color: #fff;
+  margin-right: 3%;
+  border-radius: 50px;
+  width: 30%;
+  font-size: calc(15px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* ............................discount-section......................... */
+#discount-section {
+  text-align: center;
+  background-color: #e08e9c;
+}
+#discount-section .container {
+  padding: 5%;
+}
+.title {
+  font-size: 40.641px;
+  font-family: "Unna";
+  color: rgb(246, 246, 249);
+  font-weight: bold;
+  line-height: 1.143;
+}
+.subtitle {
+  font-family: "sacramento";
+  color: rgb(246, 246, 249);
+  font-size: 40.641px;
+}
+
+/*................................. product-seection............................... */
+
+.product-title-section {
+  text-align: center;
+  padding: 5% 15%;
+}
+.product-title-section h3 {
+  color: black;
+}
+.product-title-section p {
+  color: black;
+  margin-left: 25%;
+  width: 50%;
+  font-family: "Montserrat";
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.product-back {
+  height: 150px;
+  width: 150px;
+  background-color: #efd0ca;
+  border-radius: 50%;
+  display: flex;
+}
+
+.flower-pot {
+  padding: 15%;
+  height: 200px !important;
+  translate: 0 -50px;
+}
+.flower-pot-2 {
+  translate: 7px -50px;
+}
+
+.product-info {
+  text-align: center;
+  width: 80%;
+}
+.product-info h4 {
+  padding: 3% 0%;
+}
+
+.btn-read-more {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  background-color: #a3aa68;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-read-more:hover {
+  background-color: #555;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* //////////////////////////about-section//////////////////////////// */
+
+#about-us {
+  position: relative;
+  background-color: #fad1cb;
+  height: 110vh;
+}
+
+.corner-texture-1 {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  max-width: calc(300px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+  height: auto;
+}
+
+.corner-texture-2 {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  max-width: calc(300px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
+  height: auto;
+}
+.about-text {
+  position: absolute;
+  text-align: justify;
+  padding: 10% 7%;
+}
+
+.text-div {
+  padding: 5% 3%;
+}
+
+.about-btn p {
+  width: 50%;
+}
+.text-div h3 {
+  font-family: "sacramento";
+  padding: 0.7rem 0;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+
+.about-girl-image {
+  max-width: 350px;
+  height: auto;
+}
+.about-btn {
+  border-radius: 50px;
+  background-color: #555;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-style: none;
+  margin: 1rem 0%;
+}
+/* //////////////////////////below -about -section//////////////////////////// */
+.second-about-section-text {
+  padding: 25% 0 25% 05%;
+  width: 50%;
+  text-align: justify;
+}
+
+.second-about-section-text h3 {
+  font-family: "sacramento";
+}
+
+#second-about-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: contain;
+}
+
+/* //////////////////////////video-section//////////////////////////// */
+
+#video-about-section h3 {
+  color: black;
+}
+#video-about-section p {
+  width: 60%;
+}
+#video-about-section {
+  padding: 5% 0;
+  background-color: #fad1cb;
+}
+
+/* //////////////////////////form-section//////////////////////////// */
+#form-section {
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.formsection {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 15%;
+  right: 23%;
+  width: 50%;
+  padding: 6% 0;
+}
+.formsection h3 {
+  font-size: 40.641px;
+  font-family: "Unna";
+  font-weight: bold;
+  line-height: 1.143;
+}
+input[type="text"] {
+  background: transparent;
+  border: 1px solid black;
+  margin-top: 0.8rem;
+  border-radius: 0%;
+}
+
+
+input[type="text"]:focus {
+  background-color: transparent;
+}
+.submit-btn-wrapper {
+  padding: 10%;
+}
+.form-submit-btn {
+  font-size: 1rem;
+  border-style: none;
+  border-radius: 50px;
+  background-color: #a3aa68;
+  color: #fff;
+  padding: 1rem;
+}
+.Message {
+  height: 5rem;
+}
+
+h3 {
+  font-size: calc(
+    23.272px + (50 - 40) * ((100vw - 300px) / (1600 - 300))
+  ) !important;
+}
+
+/* footer-section */
+footer {
+  background-color: #424242;
+  padding: 5% 15%;
+}
+footer h4 {
+  padding: 2rem 0%;
+  color: #fff;
+}
+
+footer p {
+  color: #a8a6a6;
+}
+
+.icon-section {
+  color: #efd0ca;
+  font-family: "sacramento";
+  text-align: end;
+  padding: 5% 10%;
+}
+footer h4 {
+  font-family: "Unna";
+}
+.icon-section .bi {
+  padding: 0% 2%;
+  font-size: medium;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .product-item {
+    flex-direction: row;
+  }
+
+  .product-img {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .leaf-img {
+    display: none;
+  }
+
+  #form-section {
+    margin: 0%;
+  }
+
+  .formsection {
+    right: 15%;
+    width: 70%;
+  }
+  #form-section {
+    height: 70vh;
+  }
+
+  #about-us {
+    height: 80vh;
+  }
+
+  #landing-page {
+    height: vh;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hero-text {
+    top: 12%;
+    border-radius: 0%;
+  }
+  .navbar {
+    top: 7%;
+  }
+}
